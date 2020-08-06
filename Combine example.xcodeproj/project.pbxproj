@@ -15,6 +15,7 @@
 		3E0F869F24DB4F0C0098912B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0F869D24DB4F0C0098912B /* LaunchScreen.storyboard */; };
 		3E0F86AA24DB4F0C0098912B /* Combine_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F86A924DB4F0C0098912B /* Combine_exampleTests.swift */; };
 		3E0F86B524DB4F0C0098912B /* Combine_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F86B424DB4F0C0098912B /* Combine_exampleUITests.swift */; };
+		3E0F86C324DB50FC0098912B /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F86C224DB50FB0098912B /* CombineViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3E0F86B024DB4F0C0098912B /* Combine exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Combine exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0F86B424DB4F0C0098912B /* Combine_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_exampleUITests.swift; sourceTree = "<group>"; };
 		3E0F86B624DB4F0C0098912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0F86C224DB50FB0098912B /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3E0F869224DB4F0B0098912B /* AppDelegate.swift */,
 				3E0F869424DB4F0B0098912B /* SceneDelegate.swift */,
 				3E0F869624DB4F0B0098912B /* ViewController.swift */,
+				3E0F86C224DB50FB0098912B /* CombineViewModel.swift */,
 				3E0F869824DB4F0B0098912B /* Main.storyboard */,
 				3E0F869B24DB4F0C0098912B /* Assets.xcassets */,
 				3E0F869D24DB4F0C0098912B /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				3E0F869724DB4F0B0098912B /* ViewController.swift in Sources */,
 				3E0F869324DB4F0B0098912B /* AppDelegate.swift in Sources */,
+				3E0F86C324DB50FC0098912B /* CombineViewModel.swift in Sources */,
 				3E0F869524DB4F0B0098912B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
