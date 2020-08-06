@@ -9,14 +9,15 @@ import UIKit
 import Combine
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var lbl: UILabel!
     @IBOutlet weak var textfield: UITextField!
     
     lazy var viewModel: CombineViewModel = {
-        let model = CombineViewModel()
+        let model = CombineViewModel.instance
         return model
     }()
+    
     private var cancellables: Set<AnyCancellable> = []
     
     override func viewDidLoad() {
@@ -24,7 +25,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         bindView()
     }
-
+    
     func bindView() {
         
         viewModel.$text.sink{ [weak self] v in
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
         textfield.addTarget(self, action: #selector(ViewController.textFieldDidChange(_:)), for: .allEditingEvents)
         
     }
-
+    
 }
 
 extension ViewController {
